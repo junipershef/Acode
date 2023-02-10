@@ -10,5 +10,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      name: Build
-      - run: npm run build android paid p
+      - name: Build
+      run: npm run build android paid p
